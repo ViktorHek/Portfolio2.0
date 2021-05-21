@@ -1,5 +1,5 @@
 const initialState = {
-  currentPage: '/'
+  homePage: true
 }
 
 export default initialState

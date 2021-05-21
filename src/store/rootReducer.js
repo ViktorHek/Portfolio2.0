@@ -5,7 +5,7 @@ const rootReducer = (state = initialState, action) => {
     case 'SET_CURRENT_PAGE':
       return {
         ...state,
-        currentPage: action.payload,
+        homePage: action.payload,
       }
     default:
       return state
