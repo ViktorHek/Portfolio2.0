@@ -18,41 +18,43 @@ const Header = () => {
           onClick={() => animateScroll.scrollToTop()}
         />
       </LinkRoute>
-      {homePage === true ? (
-        <ul className="header_menu_container">
-          <LinkRoute
-            to="/"
-            className="nav_Link"
-            onClick={() => animateScroll.scrollToTop()}
-          >
-            Home
-          </LinkRoute>
-          <LinkScroll
-            to="what"
-            className="nav_Link"
-            smooth={true}
-            duration={1000}
-          >
-            What
-          </LinkScroll>
-          <LinkScroll
-            to="who"
-            className="nav_Link"
-            smooth={true}
-            duration={1000}
-          >
-            Who
-          </LinkScroll>
-          <LinkScroll
-            to="how"
-            className="nav_Link"
-            smooth={true}
-            duration={1000}
-          >
-            How
-          </LinkScroll>
-        </ul>
-      ) : null}
+      <ul className="header_menu_container">
+        {homePage === true ? (
+          <>
+            <LinkRoute
+              to="/"
+              className="nav_Link"
+              onClick={() => animateScroll.scrollToTop()}
+            >
+              Home
+            </LinkRoute>
+            <LinkScroll
+              to="what"
+              className="nav_Link"
+              smooth={true}
+              duration={1000}
+            >
+              What
+            </LinkScroll>
+            <LinkScroll
+              to="who"
+              className="nav_Link"
+              smooth={true}
+              duration={1000}
+            >
+              Who
+            </LinkScroll>
+            <LinkScroll
+              to="how"
+              className="nav_Link"
+              smooth={true}
+              duration={1000}
+            >
+              How
+            </LinkScroll>
+          </>
+        ) : null}
+      </ul>
       <HamburgerMenu />
     </nav>
   )

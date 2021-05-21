@@ -29,7 +29,7 @@ const HamburgerMenu = () => {
   return (
     <div
       className={
-        isClicked ? 'hamburger_menu_container_active' : 'hamburger_container'
+        isClicked ? 'hamburger_menu_container_active' : 'unuced_className'
       }
       onClick={hamburgerToggle}
     >
