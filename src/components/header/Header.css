@@ -1,5 +1,5 @@
 .main_header_container {
-  background: #D8C3A5;
+  background: rgba(216, 195, 165, 0.95);
   height: 80px;
   display: flex;
   justify-content: right;
@@ -56,7 +56,7 @@
 }
 
 .hamburger_menu_container_active {
-  background: #8E8D8A;
+  background: rgba(142, 141, 138, 0.95);
   position: fixed;
   width: 100%;
   height: 100%;
