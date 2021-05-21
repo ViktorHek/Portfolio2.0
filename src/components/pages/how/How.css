@@ -1,0 +1,38 @@
+.main_how_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  width: 100%;
+  background-color: #D8C3A5;
+  color: #8E8D8A;
+}
+
+.how_contact_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30%;
+  height: 100px;
+}
+
+.how_link_container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  justify-content: space-between;
+}
+
+.how_link_title {
+  margin-bottom: 10px;
+}
+
+.how_link {
+  cursor: pointer;
+}
+
+.how_link:hover {
+  color: #E98074;
+}

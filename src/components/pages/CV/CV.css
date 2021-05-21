@@ -1,0 +1,11 @@
+.CV_page_container {
+  margin: 0;
+  padding: 10px;
+  height: 4300px;
+  background-color: #D8C3A5;
+}
+
+.CV_img {
+  width: 100%;
+  margin-bottom: 10px;
+}

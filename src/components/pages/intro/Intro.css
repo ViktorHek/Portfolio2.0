@@ -1,0 +1,37 @@
+.mane_intro_page_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+  width: 100%;
+  background-color: #EAE7DC;
+}
+
+.intro_page_container {
+  display: flex;
+  justify-content: space-around;
+  height: 75%;
+  width: 100%;
+  background-position: center;
+}
+
+.intro_img_container {
+  width: 100%;
+}
+
+.intro_background_image {
+  height: 400px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.intro_title {
+  color: #8E8D8A;
+  font-weight: bold;
+}
+
+.intro_text {
+  color: #8E8D8A;
+  max-width: 500px;
+
+}
