@@ -1,6 +1,7 @@
 import React from 'react'
 import Game from './RPS/Game'
 import './Fun.css'
+import Quotes from './random_quotes/Quotes'
 
 const Fun = () => {
   return (
@@ -11,6 +12,7 @@ const Fun = () => {
       </h1>
       <h3>At the moment I can only offer you a rock, paper, scissor game</h3>
       <Game />
+      <Quotes />
     </div>
   )
 }
