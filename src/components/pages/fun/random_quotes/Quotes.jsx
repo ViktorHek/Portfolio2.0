@@ -6,7 +6,7 @@ const Quotes = (n) => {
 
   return (
     <div>
-      <button onClick={() => setShowQuote(quotes[Math.floor(window.Math.random() * 3)])}>quote</button>
+      <button onClick={() => setShowQuote(quotes[Math.floor(window.Math.random() * 95)])}>quote</button>
       <div>{showQuote}</div>
     </div>
   )
