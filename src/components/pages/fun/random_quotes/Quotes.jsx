@@ -1,22 +1,13 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import quotes from './quotes_data'
 
-const Quotes = () => {
-  const [showQuote, setShowQuote] = useState()
-
-  // const getQuote = () => {
-  // let displayQuote = quotes[1]
-  // console.log(displayQuote)
-  // }
-
-  useEffect(() => {
-    setShowQuote(quotes[1])
-  }, [showQuote])
+const Quotes = (n) => {
+  const [showQuote, setShowQuote] = useState('')
 
   return (
     <div>
-      <button onClick={setShowQuote()}>quote</button>
-      <h1>{showQuote}</h1>
+      <button onClick={() => setShowQuote(quotes[Math.floor(window.Math.random() * 3)])}>quote</button>
+      <div>{showQuote}</div>
     </div>
   )
 }
