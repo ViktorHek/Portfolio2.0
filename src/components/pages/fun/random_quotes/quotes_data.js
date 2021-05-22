@@ -94,7 +94,7 @@ const quotes = [
   'Lite ägg och alkohol',
   'Jag har ingen bärs, jag har ingenting',
   'Vi vill gärna behålla dimman',
-  'Börja med en Volvo, sluta i Rom'
+  'Börja med en Volvo, sluta i Rom' // 95
 ]
 
 export default quotes

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import quotes from './quotes_data'
 
-const Quotes = (n) => {
+const Quotes = () => {
   const [showQuote, setShowQuote] = useState('')
 
   return (
