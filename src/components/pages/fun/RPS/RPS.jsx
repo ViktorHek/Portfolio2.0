@@ -3,7 +3,7 @@ import DisplayPlayer from './DisplayPlayer'
 import './RPS.css'
 
 const dudes = ['rock', 'paper', 'scissor', 'starter']
-class Game extends Component {
+class RPS extends Component {
   state = {
     player: dudes[3],
     computer: dudes[3],
@@ -81,4 +81,4 @@ class Game extends Component {
   }
 }
 
-export default Game
+export default RPS

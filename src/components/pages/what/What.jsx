@@ -1,6 +1,6 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
-import Data from './projects'
+import Data from './Projects'
 
 const What = () => {
   let projectList = (
