@@ -1,15 +1,14 @@
 const quotes = [
-  'Prata inte med mig on du inte svettas först', // 0
+  "Prata inte med mig \n om du inte svettas först", 
   'Jorden stormar genom rymden och här sitter vi o chillar',
   'Släpp ner maskinvärktyget!',
   'Vinröd basker står för fallskärmsjägare',
-  'Säg vad du vill om pedofiler, men dem klär sig ändå ganska snyggt',
   'Vilken musik spelas för skurken?',
   'Undvik Knölen',
   'Nationalistiska militanta budister',
   'Släpp såsen Eddy, jag är bara en medelsvensson',
   'Köttmunk UF',
-  'Det är ju lite sitcom komplativa egenskaper', // 10
+  'Det är ju lite sitcom komplativa egenskaper',
   'Jag sitter och småfiser hela tiden',
   'Det borde finns en sätesvärmare för själen',
   'Jag är inte den melodin',
@@ -17,9 +16,9 @@ const quotes = [
   'Det är inte svårt att ha tråkigt',
   'Jordens lungor rör sig',
   'Då var det en snut som stoppa en annan snut',
-  'Det sker från en ledare i USA som nyligen drabbades av massmord i två städer',
+  'Det sker från en ledare i USA som nyligen ~<br/> drabbades av massmord i två städer',
   'Ingen bryr sig ett skit om duvor',
-  'Man tänker ju inte på väggar så mycket', // 20
+  'Man tänker ju inte på väggar så mycket', 
   'Jag är typ lite taggad på själva smärtan',
   'Rock and Roll madame Castafiolen. Rock and roll',
   'Alla de här gatorna man inte känner igen som inte ens finns med på Monopol',
@@ -29,7 +28,7 @@ const quotes = [
   'Tio heta singlar, ett gemensamt mål',
   'Vem ska nu sköta terrariet?',
   'Ja gick me in i kartellen satt på 2,7 miljoner o 2, 3 kilo guld',
-  'Blandade knip-övningar', // 30
+  'Blandade knip-övningar', 
   'Om vi är förlorare, vem är då vinnare?',
   'Du glömde din lur hos mig',
   'Testa det aldrig! Eller jo, testa det en gång',
@@ -39,7 +38,7 @@ const quotes = [
   'Anländer med myomspunna könssjukdommar',
   'Sova under jord',
   'Det är såhär, jag älskar livet',
-  'Testa att särskriva skinksås', // 40
+  'Testa att särskriva skinksås', 
   'Jag ska ha ett hjärta',
   'Han är jävligt bra på att skratta',
   'Sidbena med lite väl långt hår',
@@ -50,16 +49,15 @@ const quotes = [
   'Alla drabbas och jag är en av dom',
   'Fan, den här kuken smakar snus',
   'Egentligen var det Google som sökte efter saker om dig',
-  'Risk för köbildning', // 50
+  'Risk för köbildning',
   'Bara för att de är kända behöver de inte vara fina människor',
-  'Halal-öl och sånna grejer',
   'En blixt blandat med laser',
   'Har du lyssnat på Anneli',
   'Konflikt och oftast fint väder',
   'Pengarna används sedan för att bekämpa fattigdom genom trädplantering,',
   'Förlåt jag mena det inte, jag bara kände för det',
   'De hände asså',
-  'Du blockar min periferi', // 60
+  'Du blockar min periferi', 
   'Ingen kan klä sig så och komma undan med det',
   'Det är klart som gatan',
   'Livet är inte bara skit. Det är piss också',
@@ -69,7 +67,7 @@ const quotes = [
   'Men jag väljer fan att tro på det',
   'Jag skulle aldrig någonsin lämna någon',
   'Jag vet inte, lika mycket som en större båt',
-  'Är det någon som har sin mobil med sig?', // 70
+  'Är det någon som har sin mobil med sig?', 
   'Advokaten har inen fru',
   'Om jag inte får den njutningen, då har jag ingenting kvar',
   'Allt måste göra skillnad',
@@ -79,7 +77,7 @@ const quotes = [
   'En stark kvinnlig karaktär som syns mycket i bakgrunden',
   'Jag förstår, du vill förklara för mig',
   'Hassla tills jag blir yr',
-  'Drick utan sans', // 80
+  'Drick utan sans', 
   'Du kan inte jämföra gud med ett får',
   'Hinna så lite som möjligt',
   'Bodegård är död',
@@ -89,12 +87,12 @@ const quotes = [
   'Tjejerna fick ta notan',
   'Han kommer tyvärr aldrig få huvudrollen',
   'Plugga som en jävla gangster',
-  'Jag kommer inte känna något', // 90
+  'Jag kommer inte känna något', 
   'Gå med ibland gratis',
   'Lite ägg och alkohol',
   'Jag har ingen bärs, jag har ingenting',
   'Vi vill gärna behålla dimman',
-  'Börja med en Volvo, sluta i Rom' // 95
+  'Börja med en Volvo, sluta i Rom' 
 ]
 
 export default quotes
