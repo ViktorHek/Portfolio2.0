@@ -7,8 +7,20 @@ const Quotes = () => {
 
   return (
     <div className="main_quotes_container">
-      <button onClick={() => setShowQuote(quotes[Math.floor(window.Math.random() * 95)])} className="quote_btn">quote</button>
-      <div>{showQuote}</div>
+      <p className="quote_text">{showQuote}</p>
+      <img
+        src="/images/doddle_bubble.jpg"
+        alt="sorry :("
+        className="quote_img"
+      />
+      <button
+        onClick={() =>
+          setShowQuote(quotes[Math.floor(window.Math.random() * 95)])
+        }
+        className="quote_btn"
+      >
+        quote
+      </button>
     </div>
   )
 }
