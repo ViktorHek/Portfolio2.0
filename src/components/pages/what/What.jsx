@@ -21,7 +21,7 @@ const What = () => {
           a link to my GitHub page. There you will find the codebase for all the
           projects you see here, and a couple other. This involves the projects
           presented here that does not have a deployed website. The projects on
-          the first row (first four) are deployed. the ones on the second row
+          the first row are deployed. the ones on the second row
           are not. The links on the second row will take you the the repo on my
           GitHub page.
         </h4>
@@ -29,7 +29,7 @@ const What = () => {
           {projectList ? (
             <div>{projectList}</div>
           ) : (
-            <h1>Sorry, something went wrong</h1>
+            <h2>Something went wrong with the projects</h2>
           )}
         </div>
       </div>

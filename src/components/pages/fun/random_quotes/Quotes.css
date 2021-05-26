@@ -12,6 +12,8 @@
   height: 40px;
   width: 60px;
   z-index: 10;
+  position: absolute;
+  margin-top: 100px;
 }
 
 .quote_img {
@@ -22,6 +24,17 @@
 
 .quote_text {
   z-index: 11;
-  margin-bottom: 180px;
+  margin-bottom: 210px;
   margin-left: 400px;
+  quotes: initial;
+}
+
+.quote_text {
+  quotes: '"' '"' "'" "'";
+}
+.quote_text::before {
+  content: open-quote;
+}
+.quote_text::after {
+  content: close-quote;
 }

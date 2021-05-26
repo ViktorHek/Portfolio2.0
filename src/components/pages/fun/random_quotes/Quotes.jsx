@@ -5,9 +5,30 @@ import './Quotes.css'
 const Quotes = () => {
   const [showQuote, setShowQuote] = useState('')
 
+  // function GetQuotes(props) {
+  //   const text = props.text
+  //   const newText = text.split('\n').map(str => <p>{str}</p>)
+  //   debugger
+  //   return newText
+  // }
+
+  // switch (showQuote) {
+  //   case showQuote.length > 40:
+  //     debugger
+  //     return showQuote
+  //     break;
+  //   case showQuote.length = 0:
+  //     return [showQuote.text1, showQuote.text1]
+  //     break;
+  //   default:
+  //     return 'hello'
+  //     break;
+  // }
+
   return (
     <div className="main_quotes_container">
-      <p className="quote_text">{showQuote}</p>
+      {/* <GetQuotes text={'hello\nand hi'} /> */}
+      {showQuote ? <p className="quote_text">{showQuote}</p> : null}
       <img
         src="/images/doddle_bubble.jpg"
         alt="sorry :("
